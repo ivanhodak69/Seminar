@@ -1,0 +1,21 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d4435fee-4739-44d4-a9c2-48a7a11be2d1")
+	(paper "A4")
+	(title_block
+		(title "PTP Seminar - Štoperica")
+		(date "2025-11-12")
+		(rev "1")
+		(company "TVZ")
+		(comment 1 "Izradio: Ivan Hodak")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
