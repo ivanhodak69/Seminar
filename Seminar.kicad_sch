@@ -3397,6 +3397,12 @@
 		(uuid "4f9bc8aa-03d8-4015-9ced-0cde2c52546f")
 	)
 	(junction
+		(at 177.8 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "589647ad-37f4-4ba1-ba23-3633cc2639dd")
+	)
+	(junction
 		(at 223.52 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3461,6 +3467,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e16062d1-a6fe-4717-8a6d-88b8a04d9738")
+	)
+	(junction
+		(at 88.9 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efa50fa8-bac7-4eed-a9c4-fe1006d9ea9f")
 	)
 	(junction
 		(at 147.32 162.56)
@@ -3533,10 +3545,6 @@
 	(no_connect
 		(at 259.08 66.04)
 		(uuid "33c27989-a706-46cb-831f-69cb911ea1dd")
-	)
-	(no_connect
-		(at 243.84 139.7)
-		(uuid "345abf5f-1ff8-4a63-ad71-cd925c92162c")
 	)
 	(no_connect
 		(at 203.2 124.46)
@@ -3695,6 +3703,16 @@
 			(type default)
 		)
 		(uuid "0041f4eb-7ce6-4526-9304-e5b8742cc1ce")
+	)
+	(bus
+		(pts
+			(xy 177.8 12.7) (xy 177.8 127)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(uuid "01004ac7-00d6-404d-897a-a8e91f0e200f")
 	)
 	(wire
 		(pts
@@ -3856,6 +3874,16 @@
 		)
 		(uuid "26f78236-135c-456b-b6c6-2a548cb8981b")
 	)
+	(bus
+		(pts
+			(xy 12.7 127) (xy 88.9 127)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(uuid "27aad6c0-0843-45a4-9961-617496f25021")
+	)
 	(wire
 		(pts
 			(xy 215.9 140.97) (xy 215.9 144.78)
@@ -4015,6 +4043,16 @@
 			(type default)
 		)
 		(uuid "5047d2f0-6dec-4ce4-9a09-426fb3a5d4a5")
+	)
+	(bus
+		(pts
+			(xy 177.8 127) (xy 177.8 166.37)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(uuid "51197217-583e-4d41-948a-c211c168bdb9")
 	)
 	(wire
 		(pts
@@ -4376,6 +4414,16 @@
 		)
 		(uuid "b048a92f-e314-48b7-9a47-b51ef5f696f7")
 	)
+	(bus
+		(pts
+			(xy 88.9 127) (xy 177.8 127)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(uuid "b3d3e47e-3eef-4a64-aa0e-a3417f59ada6")
+	)
 	(wire
 		(pts
 			(xy 92.71 59.69) (xy 93.98 59.69)
@@ -4635,6 +4683,16 @@
 			(type default)
 		)
 		(uuid "f2bbc9c6-281f-45ad-9537-d0ab1e7fe7c9")
+	)
+	(bus
+		(pts
+			(xy 88.9 127) (xy 88.9 198.12)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(uuid "f57ea1c9-9b09-4a00-8d2f-eba21becd1e7")
 	)
 	(wire
 		(pts
@@ -5553,6 +5611,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 243.84 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b8ddbf3-d74d-49bc-a070-91fc6c88e3a3")
+		(property "Reference" "#PWR04"
+			(at 243.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cd1bf96-241b-4849-aeb6-af8385ff581f")
+		)
+		(instances
+			(project "Seminar"
+				(path "/d4435fee-4739-44d4-a9c2-48a7a11be2d1"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 127 57.15 0)
 		(unit 1)
@@ -5821,10 +5945,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7be23de1-f93b-452e-aab6-95d13c16237b")
+			(uuid "7be23de1-f93b-452e-aab6-95d13c16237c")
 		)
 		(pin "2"
-			(uuid "c666f403-68aa-4689-bd57-d7475b6beb22")
+			(uuid "c666f403-68aa-4689-bd57-d7475b6beb23")
 		)
 		(instances
 			(project ""
@@ -6090,10 +6214,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b02337ca-dba8-427a-a69f-bc0894acc4c8")
+			(uuid "b02337ca-dba8-427a-a69f-bc0894acc4c9")
 		)
 		(pin "2"
-			(uuid "63d04a27-ea51-431b-a850-84001d8c15e0")
+			(uuid "63d04a27-ea51-431b-a850-84001d8c15e1")
 		)
 		(instances
 			(project ""
@@ -6298,7 +6422,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c4d5ae20-d3c4-4361-bf60-23d54ed6c11e")
+			(uuid "c4d5ae20-d3c4-4361-bf60-23d54ed6c11f")
 		)
 		(instances
 			(project ""
@@ -6847,10 +6971,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7554b0da-2879-4e21-b746-8024e9629faf")
+			(uuid "7554b0da-2879-4e21-b746-8024e9629fb0")
 		)
 		(pin "2"
-			(uuid "91541bbb-ff78-43a6-b8d9-c29c52623d55")
+			(uuid "91541bbb-ff78-43a6-b8d9-c29c52623d56")
 		)
 		(instances
 			(project ""
