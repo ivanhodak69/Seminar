@@ -8986,7 +8986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_ACP_CA6-VSMD_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3299Y_Vertical"
 			(at 99.06 78.74 0)
 			(effects
 				(font
