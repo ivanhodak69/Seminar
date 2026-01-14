@@ -7855,7 +7855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/2049542.pdf"
 			(at 35.56 121.92 0)
 			(effects
 				(font
@@ -7874,6 +7874,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 35.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 35.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "TLH540"
 			(at 35.56 121.92 0)
 			(effects
 				(font
@@ -8977,6 +8995,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 115.57 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "TPS61023"
+			(at 115.57 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4561499c-b804-4253-b705-84950b65f693")
 		)
@@ -9038,7 +9074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/2049542.pdf"
 			(at 26.67 121.92 0)
 			(effects
 				(font
@@ -9057,6 +9093,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 26.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 26.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "TLH540"
 			(at 26.67 121.92 0)
 			(effects
 				(font
@@ -9575,7 +9629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/2049542.pdf"
 			(at 91.44 102.87 0)
 			(effects
 				(font
@@ -9595,6 +9649,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 91.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 91.44 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "TLH540"
+			(at 91.44 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10930,7 +11002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/2049542.pdf"
 			(at 83.82 102.87 0)
 			(effects
 				(font
@@ -10950,6 +11022,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 83.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 83.82 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "TLH540"
+			(at 83.82 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11993,7 +12083,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SPDT"
 			(at 91.44 43.18 0)
 			(effects
 				(font
@@ -12002,7 +12092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
 			(at 91.44 39.37 0)
 			(effects
 				(font
@@ -12021,6 +12111,24 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 91.44 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CAS"
+			(at 91.44 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "CAS - 120TB1"
 			(at 91.44 49.53 0)
 			(effects
 				(font
