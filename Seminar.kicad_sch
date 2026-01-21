@@ -2532,7 +2532,7 @@
 			(symbol "STM32F446RET6_0_0"
 				(rectangle
 					(start 0 52.07)
-					(end 90.17 -54.61)
+					(end 53.34 -53.34)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2559,566 +2559,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -5.08 31.75 0)
-					(length 5.08)
-					(name "PA0-WKUP(PA0)TIM2_CH1/TIM2_ETR/TIM5_CH1/TIM8_ETR/USART2_CTS/UART4_TX/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 29.21 0)
-					(length 5.08)
-					(name "PA1/TIM2_CH2/TIM5_CH2/USART2_RTS/UART4_RX/QUADSPI_BK1_IO3/SAI2_MCLK_B/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 26.67 0)
-					(length 5.08)
-					(name "PA2/TIM2_CH3/TIM5_CH3/TIM9_CH1/USART2_TX/SAI2_SCK_B/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 24.13 0)
-					(length 5.08)
-					(name "PA3/TIM2_CH4/TIM5_CH4/TIM9_CH2/SAI1_FS_A/USART2_RX/OTG_HS_ULPI_D0/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 21.59 0)
-					(length 5.08)
-					(name "PA4/SPI1_NSS/I2S1_WS/SPI3_NSS/I2S3_WS/USART2_CK/OTG_HS_SOF/DCMI_HSYNC/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 19.05 0)
-					(length 5.08)
-					(name "PA5/TIM2_CH1/TIM2_ETR/TIM8_CH1N/SPI1_SCK/I2S1_CK/OTG_HS_ULPI_CK/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 16.51 0)
-					(length 5.08)
-					(name "PA6/TIM1_BKIN/TIM3_CH1/TIM8_BKIN/SPI1_MISO/I2S2_MCK/TIM13_CH1/DCMI_PIXCLK/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 13.97 0)
-					(length 5.08)
-					(name "PA7/TIM1_CH1N/TIM3_CH2/TIM8_CH1N/SPI1_MOSI/I2S1_SD/TIM14_CH1/FMC_SDNWE/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 11.43 0)
-					(length 5.08)
-					(name "PA8/MCO1/TIM1_CH1/I2C3_SCL/USART1_CK/OTG_FS_SOF/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 8.89 0)
-					(length 5.08)
-					(name "PA9/TIM1_CH2/I2C3_SMBA/SPI2_SCK/I2S2_CK/SAI1_SD_B/USART1_TX/DCMI_D0/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 6.35 0)
-					(length 5.08)
-					(name "PA10/TIM1_CH3/USART1_RX/OTG_FS_ID/DCMI_D1/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 3.81 0)
-					(length 5.08)
-					(name "PA11/TIM1_CH4/USART1_CTS/CAN1_RX/OTG_FS_DM/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "44"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 1.27 0)
-					(length 5.08)
-					(name "PA12/TIM1_ETR/USART1_RTS/SAI2_FS_B/CAN1_TX/OTG_FS_DP/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -1.27 0)
-					(length 5.08)
-					(name "PA13/JTMS-SWDIO/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "46"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -3.81 0)
-					(length 5.08)
-					(name "PA14/JTCK-SWCLK/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "49"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -6.35 0)
-					(length 5.08)
-					(name "PA15/JTDI/TIM2_CH1/TIM2_ETR/HDMI_CEC/SPI1_NSS/I2S1_WS/SPI3_NSS/I2S3_WS/UART4_RTS/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "50"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -11.43 0)
-					(length 5.08)
-					(name "PB0/TIM1_CH2N/TIM3_CH3/TIM8_CH2N/SPI3_MOSI/I2S3_SD/UART4_CTS/OTG_HS_ULPI_D1/SDIO_D1/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -13.97 0)
-					(length 5.08)
-					(name "PB1/TIM1_CH3N/TIM3_CH4/TIM8_CH3N/OTG_HS_ULPI_D2/SDIO_D2/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -16.51 0)
-					(length 5.08)
-					(name "PB2-BOOT1(PB2)/TIM2_CH4/SAI1_SD_A/SPI3_MOSI/I2S3_SD/QUADSPI_CLK/OTG_HS_ULPI_D4/SDIO_CK/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -19.05 0)
-					(length 5.08)
-					(name "PB3(JTDO/TRACESWO)/JTDO/TRACESWO/TIM2_CH2/I2C2_SDA/SPI1_SCK/I2S1_CK/SPI3_SCK/I2S3_CK/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "55"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -21.59 0)
-					(length 5.08)
-					(name "PB4(NJTRST)/NJTRST/TIM3_CH1/I2C3_SDA/SPI1_MISO/SPI3_MISO/SPI2_NSS/I2S2_WS/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "56"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -24.13 0)
-					(length 5.08)
-					(name "PB5/TIM3_CH2/I2C1_SMBA/SPI1_MOSI/I2S1_SD/SPI3_MOSI/I2S3_SD/CAN2_RX/OTG_HS_ULPI_D7/FMC_SDCKE1/DCMI_D10/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "57"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -26.67 0)
-					(length 5.08)
-					(name "PB6/TIM4_CH1/HDMI_CEC/I2C1_SCL/USART1_TX/CAN2_TX/QUADSPI_BK1_NCS/FMC_SDNE1/DCMI_D5/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "58"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -29.21 0)
-					(length 5.08)
-					(name "PB7/TIM4_CH2/I2C1_SDA/USART1_RX/SPDIFRX_IN0/FMC_NL/DCMI_VSYNC/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "59"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -31.75 0)
-					(length 5.08)
-					(name "PB8/TIM2_CH1/TIM2_ETR/TIM4_CH3/TIM10_CH1/I2C1_SCL/CAN1_RX/SDIO_D4/DCMI_D6/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "61"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -34.29 0)
-					(length 5.08)
-					(name "PB9/TIM2_CH2/TIM4_CH4/TIM11_CH1/I2C1_SDA/SPI2_NSS/I2S2_WS/SAI1_FS_B/CAN1_TX/SDIO_D5/DCMI_D7/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "62"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -36.83 0)
-					(length 5.08)
-					(name "PB10/TIM2_CH3/I2C2_SCL/SPI2_SCK/I2S2_CK/SAI1_SCK_A/USART3_TX/OTG_HS_ULPI_D3/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -39.37 0)
-					(length 5.08)
-					(name "PB12/TIM1_BKIN/I2C2_SMBA/SPI2_NSS/I2S2_WS/SAI1_SCK_B/USART3_CK/CAN2_RX/OTG_HS_ULPI_D5/OTG_HS_ID/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -41.91 0)
-					(length 5.08)
-					(name "PB13/TIM1_CH1N/SPI2_SCK/I2S2_CK/USART3_CTS/CAN2_TX/OTG_HS_ULPI_D6/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -44.45 0)
-					(length 5.08)
-					(name "PB14/TIM1_CH2N/TIM8_CH2N/SPI2_MISO/USART3_RTS/TIM12_CH1/OTG_HS_DM/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -46.99 0)
-					(length 5.08)
-					(name "PB15/RTC_REFIN/TIM1_CH3N/TIM8_CH3N/SPI2_MOSI/I2S2_SD/TIM12_CH2/OTG_HS_DP/EVENTOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin power_in line
-					(at 95.25 49.53 180)
+					(at 58.42 49.53 180)
 					(length 5.08)
 					(name "VDD"
 						(effects
@@ -3136,7 +2578,7 @@
 					)
 				)
 				(pin power_in line
-					(at 95.25 49.53 180)
+					(at 58.42 49.53 180)
 					(length 5.08)
 					(hide yes)
 					(name "VDD"
@@ -3155,7 +2597,7 @@
 					)
 				)
 				(pin power_in line
-					(at 95.25 49.53 180)
+					(at 58.42 49.53 180)
 					(length 5.08)
 					(hide yes)
 					(name "VDD"
@@ -3174,7 +2616,7 @@
 					)
 				)
 				(pin power_in line
-					(at 95.25 49.53 180)
+					(at 58.42 49.53 180)
 					(length 5.08)
 					(hide yes)
 					(name "VDD"
@@ -3193,7 +2635,7 @@
 					)
 				)
 				(pin power_in line
-					(at 95.25 46.99 180)
+					(at 58.42 46.99 180)
 					(length 5.08)
 					(name "VDDA/VREF+"
 						(effects
@@ -3211,7 +2653,7 @@
 					)
 				)
 				(pin power_in line
-					(at 95.25 44.45 180)
+					(at 58.42 44.45 180)
 					(length 5.08)
 					(name "VBAT"
 						(effects
@@ -3229,7 +2671,7 @@
 					)
 				)
 				(pin power_in line
-					(at 95.25 41.91 180)
+					(at 58.42 41.91 180)
 					(length 5.08)
 					(name "VCAP_1"
 						(effects
@@ -3247,7 +2689,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 95.25 -19.05 180)
+					(at 58.42 -19.05 180)
 					(length 5.08)
 					(name "NRST"
 						(effects
@@ -3265,7 +2707,7 @@
 					)
 				)
 				(pin power_in line
-					(at 95.25 -49.53 180)
+					(at 58.42 -49.53 180)
 					(length 5.08)
 					(name "VSSA/VREF-"
 						(effects
@@ -3283,7 +2725,7 @@
 					)
 				)
 				(pin power_in line
-					(at 95.25 -52.07 180)
+					(at 58.42 -52.07 180)
 					(length 5.08)
 					(name "VSS"
 						(effects
@@ -3301,7 +2743,7 @@
 					)
 				)
 				(pin power_in line
-					(at 95.25 -52.07 180)
+					(at 58.42 -52.07 180)
 					(length 5.08)
 					(hide yes)
 					(name "VSS"
@@ -3320,7 +2762,7 @@
 					)
 				)
 				(pin power_in line
-					(at 95.25 -52.07 180)
+					(at 58.42 -52.07 180)
 					(length 5.08)
 					(hide yes)
 					(name "VSS"
@@ -3339,7 +2781,7 @@
 					)
 				)
 				(pin power_in line
-					(at 95.25 -52.07 180)
+					(at 58.42 -52.07 180)
 					(length 5.08)
 					(hide yes)
 					(name "VSS"
@@ -3360,7 +2802,565 @@
 			)
 			(symbol "STM32F446RET6_1_0"
 				(pin bidirectional line
-					(at 95.25 31.75 180)
+					(at -5.08 31.75 0)
+					(length 5.08)
+					(name "PA0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 29.21 0)
+					(length 5.08)
+					(name "PA1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 26.67 0)
+					(length 5.08)
+					(name "PA2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 24.13 0)
+					(length 5.08)
+					(name "PA3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 21.59 0)
+					(length 5.08)
+					(name "PA4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 19.05 0)
+					(length 5.08)
+					(name "PA5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 16.51 0)
+					(length 5.08)
+					(name "PA6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 13.97 0)
+					(length 5.08)
+					(name "PA7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 11.43 0)
+					(length 5.08)
+					(name "PA8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 8.89 0)
+					(length 5.08)
+					(name "PA9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 6.35 0)
+					(length 5.08)
+					(name "PA10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 3.81 0)
+					(length 5.08)
+					(name "PA11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 1.27 0)
+					(length 5.08)
+					(name "PA12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -1.27 0)
+					(length 5.08)
+					(name "PA13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -3.81 0)
+					(length 5.08)
+					(name "PA14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -6.35 0)
+					(length 5.08)
+					(name "PA15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -11.43 0)
+					(length 5.08)
+					(name "PB0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -13.97 0)
+					(length 5.08)
+					(name "PB1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -16.51 0)
+					(length 5.08)
+					(name "PB2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -19.05 0)
+					(length 5.08)
+					(name "PB3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -21.59 0)
+					(length 5.08)
+					(name "PB4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -24.13 0)
+					(length 5.08)
+					(name "PB5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -26.67 0)
+					(length 5.08)
+					(name "PB6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -29.21 0)
+					(length 5.08)
+					(name "PB7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -31.75 0)
+					(length 5.08)
+					(name "PB8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -34.29 0)
+					(length 5.08)
+					(name "PB9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -36.83 0)
+					(length 5.08)
+					(name "PB10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -39.37 0)
+					(length 5.08)
+					(name "PB12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -41.91 0)
+					(length 5.08)
+					(name "PB13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -44.45 0)
+					(length 5.08)
+					(name "PB14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -46.99 0)
+					(length 5.08)
+					(name "PB15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 58.42 31.75 180)
 					(length 5.08)
 					(name "PC0"
 						(effects
@@ -3378,7 +3378,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 95.25 29.21 180)
+					(at 58.42 29.21 180)
 					(length 5.08)
 					(name "PC1"
 						(effects
@@ -3396,7 +3396,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 95.25 26.67 180)
+					(at 58.42 26.67 180)
 					(length 5.08)
 					(name "PC2"
 						(effects
@@ -3414,7 +3414,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 95.25 24.13 180)
+					(at 58.42 24.13 180)
 					(length 5.08)
 					(name "PC3"
 						(effects
@@ -3432,7 +3432,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 95.25 21.59 180)
+					(at 58.42 21.59 180)
 					(length 5.08)
 					(name "PC4"
 						(effects
@@ -3450,7 +3450,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 95.25 19.05 180)
+					(at 58.42 19.05 180)
 					(length 5.08)
 					(name "PC5"
 						(effects
@@ -3468,7 +3468,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 95.25 16.51 180)
+					(at 58.42 16.51 180)
 					(length 5.08)
 					(name "PC6"
 						(effects
@@ -3486,7 +3486,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 95.25 13.97 180)
+					(at 58.42 13.97 180)
 					(length 5.08)
 					(name "PC7"
 						(effects
@@ -3504,7 +3504,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 95.25 11.43 180)
+					(at 58.42 11.43 180)
 					(length 5.08)
 					(name "PC8"
 						(effects
@@ -3522,7 +3522,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 95.25 8.89 180)
+					(at 58.42 8.89 180)
 					(length 5.08)
 					(name "PC9"
 						(effects
@@ -3540,7 +3540,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 95.25 6.35 180)
+					(at 58.42 6.35 180)
 					(length 5.08)
 					(name "PC10"
 						(effects
@@ -3558,7 +3558,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 95.25 3.81 180)
+					(at 58.42 3.81 180)
 					(length 5.08)
 					(name "PC11"
 						(effects
@@ -3576,7 +3576,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 95.25 1.27 180)
+					(at 58.42 1.27 180)
 					(length 5.08)
 					(name "PC12"
 						(effects
@@ -3594,7 +3594,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 95.25 -1.27 180)
+					(at 58.42 -1.27 180)
 					(length 5.08)
 					(name "PC13"
 						(effects
@@ -3612,7 +3612,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 95.25 -3.81 180)
+					(at 58.42 -3.81 180)
 					(length 5.08)
 					(name "PC14"
 						(effects
@@ -3630,7 +3630,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 95.25 -6.35 180)
+					(at 58.42 -6.35 180)
 					(length 5.08)
 					(name "PC15"
 						(effects
@@ -3648,7 +3648,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 95.25 -11.43 180)
+					(at 58.42 -11.43 180)
 					(length 5.08)
 					(name "PD2"
 						(effects
@@ -3666,7 +3666,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 95.25 -13.97 180)
+					(at 58.42 -13.97 180)
 					(length 5.08)
 					(name "PH0"
 						(effects
@@ -3684,7 +3684,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 95.25 -16.51 180)
+					(at 58.42 -16.51 180)
 					(length 5.08)
 					(name "PH1"
 						(effects
@@ -4805,6 +4805,14 @@
 		(uuid "f72e938b-8d98-4093-ae5d-a5eff1413ac0")
 	)
 	(no_connect
+		(at 269.24 63.5)
+		(uuid "00d2739b-9b35-45ad-b64f-c772bb852bad")
+	)
+	(no_connect
+		(at 269.24 134.62)
+		(uuid "071ec405-3457-47f6-8750-711cc4c64e71")
+	)
+	(no_connect
 		(at 144.78 162.56)
 		(uuid "076fa05f-a856-416d-9344-453928bec300")
 	)
@@ -4813,32 +4821,224 @@
 		(uuid "0b0ae483-fb46-4b36-aa13-f1019fce1c7b")
 	)
 	(no_connect
+		(at 269.24 58.42)
+		(uuid "13add929-5843-4b1a-a5ad-d20df5432216")
+	)
+	(no_connect
 		(at 135.89 165.1)
 		(uuid "1774d438-3f7b-4bee-924d-b59a9ca89948")
+	)
+	(no_connect
+		(at 269.24 99.06)
+		(uuid "1aa0dbcd-d583-46e7-be19-ba1214655d13")
+	)
+	(no_connect
+		(at 205.74 58.42)
+		(uuid "1d1c5268-ead2-4e49-9837-5b8d8774afb1")
+	)
+	(no_connect
+		(at 205.74 127)
+		(uuid "206392ae-ca5b-485f-87b8-327ffe43b5d5")
+	)
+	(no_connect
+		(at 205.74 111.76)
+		(uuid "23c50d45-d47c-497b-9e83-deef40f0340b")
+	)
+	(no_connect
+		(at 205.74 76.2)
+		(uuid "246457e6-de84-4b59-91f0-1dc06c5f2bc5")
+	)
+	(no_connect
+		(at 205.74 96.52)
+		(uuid "28cfbfdd-4f07-440c-892a-312e03aacfc1")
 	)
 	(no_connect
 		(at 35.56 52.07)
 		(uuid "2c85a4a3-54cf-459f-a004-94d0bbefde3a")
 	)
 	(no_connect
+		(at 269.24 66.04)
+		(uuid "2f087cc3-b1a2-4cbc-b129-1a16cc790261")
+	)
+	(no_connect
 		(at 115.57 162.56)
 		(uuid "30d0d384-27fc-4637-8edc-a56f00cb02fa")
+	)
+	(no_connect
+		(at 269.24 81.28)
+		(uuid "3b68b6ca-f3ad-4378-b231-7f5b18cf5ff1")
+	)
+	(no_connect
+		(at 205.74 86.36)
+		(uuid "3e62dde1-ba6d-4f9d-b7d6-c99e6c7b4f23")
 	)
 	(no_connect
 		(at 35.56 57.15)
 		(uuid "41741e62-ac80-4499-a7bf-802b448ea624")
 	)
 	(no_connect
+		(at 205.74 53.34)
+		(uuid "43cadeb9-340e-4fee-8a35-bc0d48a5a254")
+	)
+	(no_connect
+		(at 269.24 38.1)
+		(uuid "4b5e2b5d-5456-4dfa-aced-23a12c39625e")
+	)
+	(no_connect
+		(at 205.74 124.46)
+		(uuid "4df6c9fe-58ac-4c55-9416-bc459f8a40fd")
+	)
+	(no_connect
+		(at 269.24 83.82)
+		(uuid "4fa900d7-e035-447e-af9f-2e6a226d1384")
+	)
+	(no_connect
+		(at 205.74 114.3)
+		(uuid "508776d8-619b-40e4-a632-65fa3ca2a194")
+	)
+	(no_connect
+		(at 205.74 82.55)
+		(uuid "52c343a9-c17c-400f-9be5-b09c16125f3f")
+	)
+	(no_connect
+		(at 205.74 109.22)
+		(uuid "54b4eb2e-ad4b-42b8-8d15-01a7c77f6575")
+	)
+	(no_connect
+		(at 205.74 104.14)
+		(uuid "5a53bf9f-5e46-40eb-9e95-87bf36d4ae7a")
+	)
+	(no_connect
+		(at 269.24 73.66)
+		(uuid "60ab82b8-e25f-4d1a-aab6-dfaf3d2c14a8")
+	)
+	(no_connect
+		(at 269.24 76.2)
+		(uuid "6276b843-25ee-4771-8e50-198dbb92d1c8")
+	)
+	(no_connect
+		(at 269.24 55.88)
+		(uuid "62b42714-a201-4a47-9d42-07ab7f069468")
+	)
+	(no_connect
+		(at 205.74 106.68)
+		(uuid "69e1def6-c409-44ac-91cb-8eaa12211af2")
+	)
+	(no_connect
+		(at 205.74 88.9)
+		(uuid "6da6b217-52a1-435e-bb58-8738d249c9ca")
+	)
+	(no_connect
 		(at 35.56 54.61)
 		(uuid "6f147852-8935-4721-a453-58311f7d295c")
+	)
+	(no_connect
+		(at 269.24 101.6)
+		(uuid "72933eca-8b41-4868-a91c-671787de4cd4")
+	)
+	(no_connect
+		(at 205.74 121.92)
+		(uuid "79de0913-b4a6-4a5d-9e5e-ed4860459780")
+	)
+	(no_connect
+		(at 205.74 91.44)
+		(uuid "7d0c5ec6-8151-4ed6-8231-5dcd79ab0635")
+	)
+	(no_connect
+		(at 269.24 78.74)
+		(uuid "88873555-cc0d-4383-b837-a21fe70b260d")
+	)
+	(no_connect
+		(at 205.74 132.08)
+		(uuid "88c1ac3e-4888-4970-8ae7-44f79288b1a0")
+	)
+	(no_connect
+		(at 269.24 60.96)
+		(uuid "88d61fcd-0d18-4c6e-9795-2da095837569")
+	)
+	(no_connect
+		(at 205.74 129.54)
+		(uuid "912eed04-91ad-47fd-961a-861eeaf611f4")
+	)
+	(no_connect
+		(at 205.74 68.58)
+		(uuid "9135bd66-be7d-4008-9143-2fd46f44a249")
+	)
+	(no_connect
+		(at 205.74 48.26)
+		(uuid "917e3781-e68e-4f35-8c14-d12ba4516ada")
+	)
+	(no_connect
+		(at 269.24 96.52)
+		(uuid "9b8bf53b-24ea-45e8-9272-1c4728177e75")
+	)
+	(no_connect
+		(at 205.74 116.84)
+		(uuid "ae7caf39-7668-43a1-9a12-121c5ad3e91f")
+	)
+	(no_connect
+		(at 269.24 71.12)
+		(uuid "af4d715a-9a47-40d4-be4d-80abed31f955")
+	)
+	(no_connect
+		(at 205.74 55.88)
+		(uuid "af94938f-c25b-44ff-8613-878b0787aac6")
+	)
+	(no_connect
+		(at 205.74 101.6)
+		(uuid "b5c41e22-c3c0-4410-b7bc-043a11b8471c")
+	)
+	(no_connect
+		(at 205.74 119.38)
+		(uuid "c65172f9-8944-4a1f-aed6-f26951154f2e")
+	)
+	(no_connect
+		(at 269.24 40.64)
+		(uuid "c82bf19c-829f-456c-bd6f-1823822059e5")
 	)
 	(no_connect
 		(at 144.78 165.1)
 		(uuid "c91b61c1-b3cc-4566-b27b-2460dafc5fa9")
 	)
 	(no_connect
+		(at 205.74 63.5)
+		(uuid "cdc25869-6f8b-45f2-a414-e236c2e62497")
+	)
+	(no_connect
+		(at 269.24 104.14)
+		(uuid "d319efe1-3cef-46eb-b6af-5cee1ac48faf")
+	)
+	(no_connect
+		(at 269.24 68.58)
+		(uuid "d5d44683-6a28-496e-8532-d53ef6efadb7")
+	)
+	(no_connect
+		(at 205.74 99.06)
+		(uuid "d9f72293-87ae-468e-8a15-dba6faa2b030")
+	)
+	(no_connect
+		(at 269.24 43.18)
+		(uuid "db0258bd-fa3b-413b-bd57-3c13379b57ce")
+	)
+	(no_connect
+		(at 205.74 78.74)
+		(uuid "dc2f0b69-7e81-41c5-b65b-c2cfe48bdc99")
+	)
+	(no_connect
+		(at 269.24 88.9)
+		(uuid "e3ec17e8-a2ce-4d45-8a27-c04c50c40b3c")
+	)
+	(no_connect
+		(at 269.24 86.36)
+		(uuid "e4d01089-d4ba-4565-803e-b4ae08ff892d")
+	)
+	(no_connect
 		(at 144.78 170.18)
 		(uuid "ee16c804-3650-4fea-bd80-2da81888e0be")
+	)
+	(no_connect
+		(at 269.24 53.34)
+		(uuid "f0782fbe-3381-4607-b7f3-6e1a34eae94f")
 	)
 	(wire
 		(pts
@@ -5092,6 +5292,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 137.16) (xy 270.51 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2032cd5e-3753-4638-bae4-409d7de6e6f8")
+	)
+	(wire
+		(pts
 			(xy 167.64 160.02) (xy 165.1 160.02)
 		)
 		(stroke
@@ -5179,6 +5389,16 @@
 			(type default)
 		)
 		(uuid "31838d63-3aef-4f05-954c-3c43c96955ab")
+	)
+	(wire
+		(pts
+			(xy 270.51 137.16) (xy 270.51 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35a48760-c046-4337-9564-21932bd737c1")
 	)
 	(wire
 		(pts
@@ -5622,7 +5842,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 99.06) (xy 304.8 99.06)
+			(xy 205.74 73.66) (xy 201.93 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5712,7 +5932,17 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 116.84) (xy 411.48 116.84)
+			(xy 269.24 35.56) (xy 273.05 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a2bb8c3-8dca-406f-87e5-04e37b6ca251")
+	)
+	(wire
+		(pts
+			(xy 271.78 91.44) (xy 269.24 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5942,7 +6172,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 86.36) (xy 304.8 86.36)
+			(xy 205.74 60.96) (xy 203.2 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6022,7 +6252,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 96.52) (xy 306.07 96.52)
+			(xy 205.74 71.12) (xy 201.93 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6092,16 +6322,6 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 162.56) (xy 419.1 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6de53c0-dc0a-4912-9998-91e1dd5a1bf6")
-	)
-	(wire
-		(pts
 			(xy 134.62 91.44) (xy 138.43 91.44)
 		)
 		(stroke
@@ -6132,7 +6352,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 106.68) (xy 311.15 106.68)
+			(xy 201.93 81.28) (xy 205.74 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6212,7 +6432,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 91.44) (xy 304.8 91.44)
+			(xy 205.74 66.04) (xy 201.93 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6578,6 +6798,28 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 273.05 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18bb0666-e219-4d0b-b5fe-7fefbcee18a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.3333 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB 5V"
 		(shape input)
 		(at 39.37 46.99 0)
@@ -6602,7 +6844,7 @@
 	)
 	(global_label "RED"
 		(shape input)
-		(at 306.07 96.52 180)
+		(at 201.93 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6612,34 +6854,12 @@
 		)
 		(uuid "2053ba4a-81a6-41f6-823a-c5c29ecc2754")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 299.3958 96.52 0)
+			(at 195.2558 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 419.1 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2a6b5033-87b4-46c7-bd97-e4e1da6d64d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 424.3833 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6756,7 +6976,7 @@
 	)
 	(global_label "STOP"
 		(shape input)
-		(at 416.56 116.84 0)
+		(at 271.78 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6766,7 +6986,7 @@
 		)
 		(uuid "55e66d5b-55cf-4b1d-87e5-48a24825181e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 424.3228 116.84 0)
+			(at 279.5428 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6778,7 +6998,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 304.8 91.44 180)
+		(at 201.93 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6788,7 +7008,7 @@
 		)
 		(uuid "56b34172-3cac-4f4b-b120-e4b146caa221")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.2467 91.44 0)
+			(at 195.3767 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6844,7 +7064,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 304.8 99.06 180)
+		(at 201.93 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6854,7 +7074,7 @@
 		)
 		(uuid "751204fa-4307-4dc6-bacc-e9b8e6c6f9f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.3072 99.06 0)
+			(at 195.4372 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6954,7 +7174,7 @@
 	)
 	(global_label "START"
 		(shape input)
-		(at 307.34 106.68 180)
+		(at 201.93 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6964,7 +7184,7 @@
 		)
 		(uuid "af18a507-b30c-4014-ba2c-bb86d2299505")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.8515 106.68 0)
+			(at 193.4415 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7020,7 +7240,7 @@
 	)
 	(global_label "BLUE"
 		(shape input)
-		(at 304.8 86.36 180)
+		(at 203.2 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7030,7 +7250,7 @@
 		)
 		(uuid "ff5741a5-cb33-4519-be1d-6ff9d043c599")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.0372 86.36 0)
+			(at 195.4372 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8023,6 +8243,72 @@
 			(project ""
 				(path "/d4435fee-4739-44d4-a9c2-48a7a11be2d1"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 270.51 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53d6a23b-b4cb-4fcc-a09f-1e8fb62bfd96")
+		(property "Reference" "#PWR01"
+			(at 270.51 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 270.51 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4edd98f-ba7b-4edb-ae07-4098975eb0d0")
+		)
+		(instances
+			(project ""
+				(path "/d4435fee-4739-44d4-a9c2-48a7a11be2d1"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -10582,16 +10868,15 @@
 	)
 	(symbol
 		(lib_id "STM32F446RET6:STM32F446RET6")
-		(at 316.23 110.49 0)
+		(at 210.82 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ef9d831a-f338-4404-9a5e-fc501f428fb6")
 		(property "Reference" "U1"
-			(at 320.04 53.34 0)
+			(at 237.744 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10599,7 +10884,7 @@
 			)
 		)
 		(property "Value" "NUCLEO64-F446RE"
-			(at 320.04 55.88 0)
+			(at 237.744 30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10607,7 +10892,7 @@
 			)
 		)
 		(property "Footprint" "STM32F446RET6:QFP50P1200X1200X160-64N"
-			(at 334.01 160.02 0)
+			(at 228.6 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10617,7 +10902,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/data_brief/DM00105918.pdf"
-			(at 297.18 147.32 0)
+			(at 191.77 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10626,7 +10911,7 @@
 			)
 		)
 		(property "Description" "Nucleo 64 Development Board with STM32F411RET6 MCU, 128kB RAM, 512KB FLASH"
-			(at 320.04 111.76 0)
+			(at 214.63 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10635,7 +10920,7 @@
 			)
 		)
 		(property "Manufacturer" "STMicroelectronics"
-			(at 320.04 111.76 0)
+			(at 214.63 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10644,7 +10929,7 @@
 			)
 		)
 		(property "Manufacturer part number" "STM32F446RET6"
-			(at 320.04 111.76 0)
+			(at 214.63 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
