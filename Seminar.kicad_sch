@@ -4595,6 +4595,12 @@
 		(uuid "11da55d7-dd10-4085-8178-3a70073ac37e")
 	)
 	(junction
+		(at 139.7 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18caa9c9-5bcd-4a58-965f-834865b29103")
+	)
+	(junction
 		(at 27.94 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4779,12 +4785,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eda37da1-2b21-49d4-8e83-0f8280565138")
-	)
-	(junction
-		(at 139.7 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f251c72e-c7ed-4cfb-a9f0-8171f1448a2e")
 	)
 	(junction
 		(at 105.41 114.3)
@@ -5090,16 +5090,6 @@
 		)
 		(uuid "04eaaadb-1910-451c-88f6-2ecc5734c39e")
 	)
-	(wire
-		(pts
-			(xy 104.14 104.14) (xy 105.41 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "083f7972-c366-43e8-ba3a-4f5ef88fd192")
-	)
 	(bus
 		(pts
 			(xy 54.61 87.63) (xy 54.61 127)
@@ -5119,26 +5109,6 @@
 			(type default)
 		)
 		(uuid "09c3e198-f7f7-4973-8014-92753d496af7")
-	)
-	(wire
-		(pts
-			(xy 134.62 101.6) (xy 135.89 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ba6437c-0a40-412d-a9e2-c32304003173")
-	)
-	(wire
-		(pts
-			(xy 134.62 99.06) (xy 135.89 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e7aa226-9a33-4ae3-8b21-2ce92aec5103")
 	)
 	(wire
 		(pts
@@ -5202,7 +5172,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 99.06) (xy 104.14 99.06)
+			(xy 100.33 99.06) (xy 105.41 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5322,7 +5292,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 111.76) (xy 139.7 111.76)
+			(xy 135.89 111.76) (xy 139.7 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5402,7 +5372,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 93.98) (xy 104.14 96.52)
+			(xy 105.41 93.98) (xy 105.41 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5592,6 +5562,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 104.14) (xy 105.41 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56378d0f-006f-4ab5-b1e7-441beb89a98d")
+	)
+	(wire
+		(pts
 			(xy 71.12 34.29) (xy 77.47 34.29)
 		)
 		(stroke
@@ -5722,13 +5702,23 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 106.68) (xy 139.7 106.68)
+			(xy 135.89 106.68) (xy 139.7 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6d3dab06-9ba7-4115-996b-97f01e393b6b")
+	)
+	(wire
+		(pts
+			(xy 105.41 93.98) (xy 104.14 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dcc3611-3eb2-498e-8f3c-a8c06767f07f")
 	)
 	(wire
 		(pts
@@ -5972,6 +5962,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 106.68) (xy 139.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912fc9cc-e969-4fef-9e0d-e1f21fd4be39")
+	)
+	(wire
+		(pts
 			(xy 133.35 49.53) (xy 135.89 49.53)
 		)
 		(stroke
@@ -6112,16 +6112,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 106.68) (xy 139.7 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab12b4e7-7730-4191-acfe-167add2a16a0")
-	)
-	(wire
-		(pts
 			(xy 171.45 140.97) (xy 177.8 140.97)
 		)
 		(stroke
@@ -6179,16 +6169,6 @@
 			(type default)
 		)
 		(uuid "b8870189-5f4a-483b-83e5-99639b89c228")
-	)
-	(wire
-		(pts
-			(xy 105.41 104.14) (xy 105.41 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b992c0da-e210-466c-8785-33a41692bb3c")
 	)
 	(wire
 		(pts
@@ -6322,7 +6302,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 91.44) (xy 138.43 91.44)
+			(xy 135.89 91.44) (xy 138.43 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6332,7 +6312,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 96.52) (xy 154.94 96.52)
+			(xy 135.89 96.52) (xy 154.94 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6419,16 +6399,6 @@
 			(type default)
 		)
 		(uuid "d04629c1-9721-4df2-8a08-0011c77800d4")
-	)
-	(wire
-		(pts
-			(xy 139.7 111.76) (xy 139.7 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1802658-408a-4e07-a276-89e6633906c6")
 	)
 	(wire
 		(pts
@@ -6539,6 +6509,16 @@
 			(type default)
 		)
 		(uuid "e410f795-9cf8-47d3-9f64-e512580202da")
+	)
+	(wire
+		(pts
+			(xy 139.7 111.76) (xy 139.7 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4c342c4-e330-4dbe-a162-3e0099bfda50")
 	)
 	(wire
 		(pts
@@ -8427,7 +8407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:DRL0006A"
+		(property "Footprint" "footprints:SOT563-ORI"
 			(at 115.57 49.53 0)
 			(effects
 				(font
@@ -10164,16 +10144,15 @@
 	)
 	(symbol
 		(lib_id "TP4056:TP4056")
-		(at 119.38 101.6 0)
+		(at 120.65 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d20621ca-a4bb-4cd1-baee-2a81886d0705")
 		(property "Reference" "U4"
-			(at 119.38 83.82 0)
+			(at 120.65 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10181,7 +10160,7 @@
 			)
 		)
 		(property "Value" "TP4056"
-			(at 119.38 86.36 0)
+			(at 120.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10189,7 +10168,7 @@
 			)
 		)
 		(property "Footprint" "SOP127P600X175-9N:SOP127P600X175-9N"
-			(at 119.38 101.6 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10199,7 +10178,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.snapeda.com/parts/TP4056/NanJing%20Top%20Power%20ASIC%20Corp./datasheet/"
-			(at 119.38 101.6 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10208,7 +10187,7 @@
 			)
 		)
 		(property "Description" "Complete single cell Li-Ion battery with a constant current / constant voltage linear charger"
-			(at 119.38 101.6 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10217,7 +10196,7 @@
 			)
 		)
 		(property "Manufacturer" "NanJing Top Power ASIC Corp."
-			(at 119.38 101.6 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10227,7 +10206,7 @@
 			)
 		)
 		(property "Manufacturer part number" "TP4056"
-			(at 119.38 101.6 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
